@@ -1,0 +1,66 @@
+{
+    "artigos": [
+        {
+            "titulo": "g",
+            "conteudo": "g",
+            "palavras_chave": [
+                "g"
+            ],
+            "categoria": "g"
+        },
+        {
+            "titulo": "s",
+            "conteudo": "s",
+            "palavras_chave": [
+                "s"
+            ],
+            "categoria": "s"
+        },
+        {
+            "titulo": "svvvv",
+            "conteudo": "svvvv",
+            "palavras_chave": [
+                "sv",
+                "s",
+                "g"
+            ],
+            "categoria": "s"
+        },
+        {
+            "titulo": "Davi",
+            "conteudo": "teste",
+            "palavras_chave": [
+                "Davi",
+                "d",
+                "D"
+            ],
+            "categoria": "teste"
+        },
+        {
+            "titulo": "sssssssssssss",
+            "conteudo": "sssss",
+            "palavras_chave": [
+                "sssss",
+                "s",
+                "v",
+                "g",
+                "d"
+            ],
+            "categoria": "sssssssss",
+            "arquivo": "Logica_de_Programacao_com_node.js_.pdf"
+        },
+        {
+            "titulo": "df",
+            "conteudo": "dfff",
+            "palavras_chave": [
+                "d",
+                "s",
+                "v",
+                "b",
+                "l"
+            ],
+            "categoria": "sdsdsds",
+            "arquivo": "Logica_de_Programacao_com_node.js_.pdf"
+        }
+    ]
+}
