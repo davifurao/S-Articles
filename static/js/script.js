@@ -1,12 +1,12 @@
 function consultarArtigos() {
     var palavraChave = document.getElementById('consultaPalavraChave').value;
 
-    // Use a função fetch para enviar a solicitação POST ao servidor Flask
+    
     fetch('/consultar_artigos', {
         method: 'POST',
-        body: JSON.stringify({ palavraChave: palavraChave }), // Envie os dados como JSON
+        body: JSON.stringify({ palavraChave: palavraChave }), // Serializa em um JSON
         headers: {
-            'Content-Type': 'application/json', // Especifique o tipo de conteúdo JSON
+            'Content-Type': 'application/json', 
         }
     })
     .then(response => response.json())
@@ -15,7 +15,7 @@ function consultarArtigos() {
         listaArtigos.innerHTML = ''; // Limpa a lista atual
 
         if (resultados.length === 0) {
-            // Se não houver correspondência, exiba a mensagem
+            // Se não houver correspondências, exibe uma mensagem
             var mensagem = document.createElement('p');
             mensagem.textContent = 'Não existe correspondência.';
             listaArtigos.appendChild(mensagem);
